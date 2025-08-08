@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-wheel-metadata/
+.installed.cfg
+*.egg-info/
+
+# Environment variables
+.env
+
+# Databases
+*.db
+*.sqlite3
+
+# Test results
+simple_test_results.json
+
+# Diagrams
+architecture_diagram.png
