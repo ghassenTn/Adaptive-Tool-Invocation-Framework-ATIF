@@ -1,8 +1,8 @@
 import asyncio
 import os
-from llm_integration.root_agent import LlmAgent, load_env_file
+from llm_integration.root_agent import LlmAgent
 from llm_integration.gemini_wrapper import GeminiWrapper
-
+from dotenv import load_dotenv
 # --- Custom Tools ---
 
 def get_current_user_name() -> str:
@@ -23,7 +23,8 @@ async def run_advanced_debug():
     print("=" * 60)
 
     # Load environment variables
-    load_env_file()
+    load_dotenv()
+    print()
     api_key = os.getenv("GEMINI_API_KEY")
 
     if not api_key:
