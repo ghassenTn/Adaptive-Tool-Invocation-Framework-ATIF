@@ -1,4 +1,6 @@
 # Adaptive Tool Invocation Framework (ATIF)
+<img width="7840" height="4110" alt="architecture_diagram" src="https://github.com/user-attachments/assets/17c2a98a-356e-422b-a8bc-9a522f661e66" />
+
 
 ATIF is a framework designed to enhance the tool-calling capabilities of Large Language Models (LLMs), with a focus on improving the performance of less powerful models.
 
