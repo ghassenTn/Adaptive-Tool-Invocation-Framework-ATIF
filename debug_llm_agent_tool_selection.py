@@ -1,4 +1,5 @@
 import asyncio
+import os
 from llm_integration.root_agent import LlmAgent, load_env_file
 from llm_integration.gemini_wrapper import GeminiWrapper
 
@@ -23,7 +24,7 @@ async def run_advanced_debug():
 
     # Load environment variables
     load_env_file()
-    api_key = "AIzaSyDnsPPXAcgUUqE4Cfp0EyAU_c14gDLJOoY"
+    api_key = os.getenv("GEMINI_API_KEY")
 
     if not api_key:
         print("Error: API key missing.")
