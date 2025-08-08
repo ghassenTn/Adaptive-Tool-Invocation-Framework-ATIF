@@ -17,14 +17,14 @@ ATIF is designed to be flexible, allowing you to integrate any LLM of your choic
 
 ### Using LlmAgent with Gemini
 
-You can use the `LlmAgent` as a master agent that interacts with the Gemini model (or any other LLM) and uses the tools you define. The Google AI API key is automatically read from your `.env` file.
+You can use the `LlmAgent` as a master agent that interacts with the Gemini model (or any other LLM) and uses the tools you define.
 
 **1. Set up the `.env` file:**
 
 Create a file named `.env` in the root of your project and add your API key:
 
 ```
-GOOGLE_AI_API_KEY=YOUR_GEMINI_API_KEY_HERE
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
 ```
 
 **2. Define the tools:**

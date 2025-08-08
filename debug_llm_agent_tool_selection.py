@@ -45,8 +45,9 @@ async def run_advanced_debug():
 
     # Test queries
     test_queries = [
-        " whats is my info ? ",
-    ]
+        " whats is my name ? ",
+        " whats is my age ? " 
+        ]
 
     for query in test_queries:
         print(f"\n📌 User Query: {query}")
